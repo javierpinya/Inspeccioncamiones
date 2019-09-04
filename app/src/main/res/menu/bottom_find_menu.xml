@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/navigation_firstcomponent"
+        android:icon="@drawable/ic_looks_one_black_24dp"
+        android:title="@string/primerComponente" />
+
+    <item
+        android:id="@+id/navigation_secondcomponent"
+        android:icon="@drawable/ic_looks_two_black_24dp"
+        android:title="@string/segundoComponente" />
+    <item
+        android:id="@+id/navigation_conjunto"
+        android:icon="@drawable/ic_filter_none_black_24dp"
+        android:title="@string/conjunto" />
+
 </menu>

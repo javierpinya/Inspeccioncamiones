@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -18,14 +19,21 @@ public class MainMenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Intent i = new Intent(this, BuscarActivity.class);
+        startActivity(i);
+
+        /*
         getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.container, f)
+                .replace(R.id.contenedorDashboard, f)
                 .commit();
+
+
+         */
     }
 
 
-
+/*
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
@@ -46,7 +54,7 @@ public class MainMenuActivity extends AppCompatActivity {
             if (f != null) {
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.container, f)
+                        .replace(R.id.contenedorDashboard, f)
                         .commit();
             }
 
@@ -54,5 +62,5 @@ public class MainMenuActivity extends AppCompatActivity {
         }
     };
 
-
+*/
 }

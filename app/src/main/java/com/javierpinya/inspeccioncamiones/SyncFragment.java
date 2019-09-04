@@ -20,8 +20,8 @@ import android.widget.Toast;
  */
 public class SyncFragment extends Fragment {
 
-    private SharedPreferences prefs;
-    private Button btnSinc;
+   // private SharedPreferences prefs;
+   // private Button btnSinc;
     private View view;
 
     public SyncFragment() {
@@ -42,6 +42,7 @@ public class SyncFragment extends Fragment {
 
         view = inflater.inflate(R.layout.fragment_sync, container, false);
 
+        /*
         btnSinc = view.findViewById(R.id.btnSinc);
 
         btnSinc.setOnClickListener(new View.OnClickListener(){
@@ -52,14 +53,14 @@ public class SyncFragment extends Fragment {
                 Toast.makeText(getActivity(), "Sincronizando datos", Toast.LENGTH_SHORT).show();
             }
         });
-
+        */
 
         // Inflate the layout for this fragment
         return view;
     }
 
 
-
+/*
     private void saveOnPreferences(String user, String password, String rutafoto,
                                    String nombre, String puesto, String correo, String movil){
 
@@ -74,5 +75,7 @@ public class SyncFragment extends Fragment {
         editor.commit();
         editor.apply();
     }
+
+ */
 
 }

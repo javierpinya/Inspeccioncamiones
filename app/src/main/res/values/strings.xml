@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Inspeccioncamiones</string>
-    <string name="title_dashboard">t_dashboard</string>
-    <string name="title_profile">t_profile</string>
-    <string name="title_sincronizar">t_sincronizar</string>
+    <string name="title_dashboard">dashboard</string>
+    <string name="title_profile">profile</string>
+    <string name="title_sincronizar">sincronizar</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -10,4 +10,7 @@
     <string name="find_inspection">Buscar Inspección</string>
     <string name="tvAvisoSinc">Se borrarán todas las bases de datos originales y se sustituirán por las leídas desde los nuevos archivos. Asegurarse de que se han descargado los archivos actualizados y que se hayan guardado en la carpeta correspondiente (Descargas)</string>
     <string name="btnSinc">Sincronizar</string>
+    <string name="primerComponente">Primer Componente</string>
+    <string name="segundoComponente">Segundo Componente</string>
+    <string name="conjunto">conjunto</string>
 </resources>
